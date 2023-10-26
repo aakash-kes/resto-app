@@ -1,0 +1,39 @@
+.navigation-menu {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.navigation-menu li {
+    margin: 0px 20px;
+}
+
+.navigation-menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    font-style: inherit;
+    font-weight: bolder;
+
+}
+
+.active {
+    color: red !important;
+    font-weight: bold;
+}
+
+/* mobile view */
+.mobileNavigation-menu {
+    list-style-type: none;
+}
+
+.mobileNavigation-menu li {
+    margin-top: 20px;
+}
+
+.mobileNavigation-menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+}
