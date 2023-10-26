@@ -12,9 +12,7 @@ import {
 import RestaurantIcon from '@mui/icons-material/Restaurant'
 import MenuIcon from '@mui/icons-material/Menu'
 
-import logo from '../../Images/logo.jpg'
-
-import { Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import '../../Styles/HeaderStyle.css'
 
 const Header = () => {
