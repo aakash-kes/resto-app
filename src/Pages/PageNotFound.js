@@ -4,7 +4,9 @@ import Layout from '../Component/Layout/Layout'
 const PageNotFound = () => {
   return (
     <Layout>
-      <h1>PageNotFound </h1>
+      <div style={{ minHeight: '64vh' }}>
+        <h1>PageNotFound </h1>
+      </div>
     </Layout>
   )
 }
